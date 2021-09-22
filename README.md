@@ -15,3 +15,4 @@ pinMode(12,OUTPUT); //turn on sounds sensor - I put its power pin on 12 save on 
 digitalWrite(12, HIGH);
 pinMode(interruptPin, INPUT_PULLUP);
 attachInterrupt(digitalPinToInterrupt(interruptPin), pushpins, CHANGE);   // Call the function pushpins if Pin 2 goes high
+
